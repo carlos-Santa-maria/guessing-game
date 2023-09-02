@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container h1 {
+  font-size: 2rem;
+  color: #333;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.container p {
+  position: relative;
+  font-size: 1.5rem;
+  bottom: 440px;
+  letter-spacing: 1px;
+  color: #222;
+  text-align: center;
+}
+.container input {
+  color: #222;
+  position: relative;
+  padding: 5px;
+  font-size: 16px;
+  bottom: 550px;
+}
+.container button {
+  position: relative;
+  bottom: 525px;
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.container button:hover {
+  background-color: #12af17;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.container h4 {
+  position: relative;
+  bottom: 775px;
+}
+.container .questions-mark-1 {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  bottom: 105px;
+  left: 255px;
+  z-index: -1;
+  transition: all 0.3;
+}
+.container .question-marks-2 {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  bottom: 355px;
+  right: 255px;
+  transform: scaleX(-1);
+  z-index: -1;
+}
+.container .questioned-man {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  bottom: 550px;
+  z-index: -1;
+}
+
+#mensaje {
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#Tries {
+  position: relative;
+  top: -15px;
+}/*# sourceMappingURL=style.css.map */

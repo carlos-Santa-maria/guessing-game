@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <!-- title and logo -->
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <title>Game to guest the number</title>
+</head>
+
+<body>
+    <div class = container>
+      <h1>Can you guest the number <br> I'm thinking?</h1>
+      <p>Please, use the box below to introduce a number between 1 and 100 and, I show <br> you If you could guest it</p>
+      <img class="questions-mark-1" src="/img/question-marks.png" alt="questions simbols">
+      <img class=" question-marks-2" src="/img/question-marks.png" alt = "questions simbols">
+      <input type="number" id="numberUsed">
+      <button onclick="getResult()">Click to guest</button>
+      <p id="message">Let's Play</p>
+      <h4>Number of tries:<p id="Tries"></p></h4>
+      <img class="questioned-man" src="/img/mand -and-question-mark.png">
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
